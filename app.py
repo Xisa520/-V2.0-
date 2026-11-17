@@ -140,7 +140,7 @@ def word_bytes(title, content):
     buf=io.BytesIO(); d.save(buf); return buf.getvalue()
 
 
-st.title("小学数学学情智能分析 V2.0 多模型网页版")
+st.title("小学数学学情分析")
 st.caption('Python统计 + 大模型智能诊断 + 分层练习 + Word导出｜MBA课程结课演示')
 with st.sidebar:
     st.header('🧭 使用设置')
